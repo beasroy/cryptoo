@@ -1,0 +1,86 @@
+.ex-cards{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 5rem;
+     font-size: 18px; 
+    font-weight: bold;
+}
+.ex-top{
+    margin-top: 52rem;
+}
+.name{
+    width: 7rem;
+}
+.price{
+    width: 7rem;
+}
+.rank{
+    width: 7rem;
+}
+.heading{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 7rem;   
+    
+}
+h2{padding-left: 5rem;}
+h2 a {
+    text-decoration: none;
+    color: white;
+}
+.btns button{
+   height: 2rem;
+   background-color: orange;
+   border: none;
+   margin-left: 30px;
+   width: 5rem;
+   border-radius: 10px;  
+   
+}
+.btns{
+    margin-left: 35rem;
+   
+}
+.btns button:hover {background-color: coral;}
+
+
+@media only screen and (max-width: 600px) {
+    .image img{
+        height: 50px;
+        margin-left: 40px;
+        margin-right: 20px;
+      }
+        .name{
+           font-size: 15px;
+           width: 10rem;
+        }
+        .price{
+          font-size: 15px;
+          width:  10rem;
+        }
+        .rank{
+         font-size: 15px;
+        }
+        .ex-cards{
+            display: flex;
+            justify-content: space-between;
+        }
+    .heading{
+        display: flex;
+        justify-content: space-between;
+    }
+    h2{padding-left: 2rem;}
+    .btns button{
+       height: 2rem;
+       background-color: orange; 
+       border-radius: 10px;  
+       margin-bottom: 10px;
+    }
+    .btns{
+        margin-left: 5rem;    
+    }
+    
+
+}
